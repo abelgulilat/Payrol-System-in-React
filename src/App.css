@@ -1,38 +1,55 @@
-.App {
+
+.payrol {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  border: 1px solid #323232;
+  background-color: #323232;
+  margin:  100px 20%;
+  padding: 5% 0;
+  border-radius: 20px;
+}
+.home{
+  text-align: center; 
+  align-content: center;
+  color: white;
+  background-color: #323232;
+  height: 100vh ;
+}
+#b{
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 50px;
+}
+#b,#b1,#b2,#b3{
+  border-radius: 10px;
+  outline: none;
+  background-color: #212121;
+  color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+#in{
+  width: 95%;
+  border-radius: 10px 0 0 0;
+  padding: 5px;
+}
+.notfound{
+  background-color: #212121;
+  color: white;
+  text-align: center;
+  height: 100vh;
+  
+  padding: 10% 0 0 0;
+}
+#four{
+  font-size: 64px;
+  
+}
+#follow{
+  text-align: center;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
